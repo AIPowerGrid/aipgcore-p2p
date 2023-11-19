@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/underdarkskies/aipgcore-p2p.git"
+    "url": "https://github.com/AIPowerGrid/aipgcore-p2p.git"
   },
   "dependencies": {
     "bloom-filter": "^0.2.0",
     "node-buffers": "github:underdarkskies/node-buffers",
-    "aipgcore-lib": "github:underdarkskies/aipgcore-lib",
+    "aipgcore-lib": "github:AIPowerGrid/aipgcore-lib",
     "socks5-client": "^1.2.8"
   },
   "devDependencies": {
