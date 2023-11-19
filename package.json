@@ -1,7 +1,7 @@
 {
-  "name": "ravencore-p2p",
+  "name": "aipgcore-p2p",
   "version": "1.0.0",
-  "description": "Interface to the ravencoin P2P network for ravencore",
+  "description": "Interface to the aipgcoin P2P network for aipgcore",
   "author": "Under",
   "main": "index.js",
   "scripts": {
@@ -10,17 +10,17 @@
     "coverage": "nyc mocha"
   },
   "keywords": [
-    "ravencoin",
-    "ravencore"
+    "aipgcoin",
+    "aipgcore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/underdarkskies/ravencore-p2p.git"
+    "url": "https://github.com/underdarkskies/aipgcore-p2p.git"
   },
   "dependencies": {
     "bloom-filter": "^0.2.0",
     "node-buffers": "github:underdarkskies/node-buffers",
-    "ravencore-lib": "github:underdarkskies/ravencore-lib",
+    "aipgcore-lib": "github:underdarkskies/aipgcore-lib",
     "socks5-client": "^1.2.8"
   },
   "devDependencies": {

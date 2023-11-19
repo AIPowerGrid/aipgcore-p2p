@@ -3,7 +3,7 @@
 var should = require('chai').should();
 var P2P = require('../../');
 var builder = P2P.Messages.builder;
-var ravencore = require('ravencore-lib');
+var aipgcore = require('aipgcore-lib');
 
 describe('Messages Builder', function() {
 
@@ -18,9 +18,9 @@ describe('Messages Builder', function() {
     it('should return commands with customizations', function() {
       // instantiate
       var b = builder({
-        network: ravencore.Networks.testnet,
-        Block: ravencore.Block,
-        Transaction: ravencore.Transaction
+        network: aipgcore.Networks.testnet,
+        Block: aipgcore.Block,
+        Transaction: aipgcore.Transaction
       });
       should.exist(b);
     });
